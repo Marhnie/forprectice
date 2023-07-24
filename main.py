@@ -6,11 +6,11 @@ import tableauserverclient as TSC
 
 # Set up connection.
 tableau_auth = TSC.PersonalAccessTokenAuth(
-    st.secrets["tableau"]["token_name"],
-    st.secrets["tableau"]["personal_access_token"],
-    st.secrets["tableau"]["site_id"],
+    st.secrets["tableau"]["streamlit-app"],
+    st.secrets["tableau"]["Jfl3hZXoRmeLx8S7RldI0w==:Y4SmsTWRGvbOktQfX6yTtb0MjtcuSmZQ"],
+    st.secrets["tableau"]["marhnie"],
 )
-server = TSC.Server(st.secrets["tableau"]["server_url"], use_server_version=True)
+server = TSC.Server(st.secrets["tableau"]["https://prod-apnortheast-a.online.tableau.com"], use_server_version=True)
 
 
 # Get various data.
