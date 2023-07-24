@@ -1,3 +1,4 @@
 streamlit
 numpy
 pandas
+tableauserverclient == 2023.1.3
